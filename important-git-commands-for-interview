@@ -1,0 +1,17 @@
+git pull -                                downloads and immediately merges those changes into your current branch.
+git fetch -                               downloads remote changes without modifying your local branch
+git stash -                               temporarily saves your unfinished changes aside so you can switch branches or pull updates, and restore them later.
+git stash pop -                           restores your most recently stashed changes back to your working directory and removes them from the stash list.
+git revert -                              Creates a new commit that reverses the changes of a selected commit.
+                                          Does not delete history — keeps a full audit trail.
+git reset -                               Moves the branch pointer to an earlier commit.
+                                          Can remove commits and changes from history.
+git merge -                               combines two branches and keeps the original history (creates a merge commit).
+git rebase -                              moves your branch on top of another branch and rewrites history to keep it linear.
+git checkout -b new-branch-name  -        create new branch and switch into that
+git branch new-branch-name -              create new branch
+git checkout branch-name -                switch between branches
+git status -                              see changed/untracked files
+git log -                                 view commit history
+git add file.txt -                        stage/add specific file
+git add . -                               stage all changes
